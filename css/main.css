@@ -127,7 +127,7 @@ body {
   }
   .panel {
     width: 80%;
-    max-width: 90em;
+    max-width: 72em;
   }
   .panel__content-title {
     margin-bottom: 0.4em;
@@ -135,12 +135,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: clamp(3rem, 2.64vw, 3.8rem);
+    font-size: clamp(2.8rem, 2.64vw, 3.8rem);
   }
   .panel__content-text {
-    margin: 0 clamp(13em, 23.3vw, 21em);
+    margin: 0 clamp(15em, 26%, 19em);
     margin-bottom: clamp(3.8em, 4.8vw, 4.3em);
-    font-size: clamp(1.3rem, 1vw, 1.5rem);
+    font-size: clamp(1.1rem, 1.111vw, 1.6rem);
   }
   .panel__bottom {
     display: grid;
